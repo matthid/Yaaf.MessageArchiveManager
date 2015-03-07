@@ -2,17 +2,14 @@
 // This file is subject to the terms and conditions defined in
 // file 'LICENSE.txt', which is part of this source code package.
 // ----------------------------------------------------------------------------
-namespace Test.Yaaf.Xmpp.IM
+namespace Test.Yaaf.MessageArchiveManager
 
 open FsUnit
 open NUnit.Framework
-open Test.Yaaf.Xmpp
 open Yaaf.Xmpp
-open Yaaf.Xmpp.IM
 open Yaaf.Helper
 open Yaaf.TestHelper
 open Yaaf.Xmpp.MessageArchiving
-open Yaaf.Xmpp.IM.Server
 open Swensen.Unquote
 
 /// This base class provides some basic unit tests which should work on all instances of MessageArchivingStore
