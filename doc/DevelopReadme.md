@@ -6,7 +6,7 @@ This project uses Yaaf.AdvancedBuilding, see https://matthid.github.io/Yaaf.Adva
 
 ## General overview:
 
-This project tries to help you with your build setup.
+This is library managing your xmpp chat messages.
 
 ### Issues / Features / TODOs
 
@@ -14,7 +14,7 @@ New features are accepted via github pull requests (so just fork away right now!
 
 Issues and TODOs are tracked on github, see: https://github.com/matthid/Yaaf.MessageArchiveManager/issues
 
-Discussions/Forums are on IRC. 
+Discussion: [![Join the chat at https://gitter.im/matthid/Yaaf.Xmpp.Runtime](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/matthid/Yaaf.Xmpp.Runtime?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ### Versioning: 
 

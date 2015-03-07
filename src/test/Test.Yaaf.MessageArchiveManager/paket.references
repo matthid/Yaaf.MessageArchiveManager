@@ -2,8 +2,6 @@ Yaaf.Xmpp.MessageArchiving
 Yaaf.Xmpp.Runtime
 FSharp.Core
 
-MailSystem.NET
-
 Unquote
 Foq
 FsUnit

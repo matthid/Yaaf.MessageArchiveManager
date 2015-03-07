@@ -11,8 +11,6 @@ nuget FSharp.Core
 nuget Yaaf.Xmpp.MessageArchiving
 nuget Yaaf.Xmpp.Runtime
 
-nuget MailSystem.NET
-
 // Test
 // Until Visual Studio test runner supports later versions.
 nuget NUnit == 2.6.3
