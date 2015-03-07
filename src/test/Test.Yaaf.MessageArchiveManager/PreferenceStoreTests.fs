@@ -4,17 +4,12 @@
 // ----------------------------------------------------------------------------
 namespace Test.Yaaf.MessageArchiveManager
 
-open FsUnit
 open NUnit.Framework
 open Yaaf.Helper
 open Yaaf.TestHelper
 
-open Test.Yaaf.Xmpp
 open Yaaf.Xmpp
-open Yaaf.Xmpp.IM.Server
-open Yaaf.Xmpp.IM
 open Swensen.Unquote
-open Foq
 open Yaaf.Xmpp.MessageArchiving
 
 [<AbstractClass>]
