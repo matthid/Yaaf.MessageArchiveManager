@@ -50,6 +50,8 @@
     </Compile>
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="Test.fs" />
+    <Compile Include="MessageArchivingStoreTest.fs" />
+    <Compile Include="TestMemoryMessageStore.fs" />
     <None Include="App.config" />
     <None Include="paket.references" />
   </ItemGroup>
