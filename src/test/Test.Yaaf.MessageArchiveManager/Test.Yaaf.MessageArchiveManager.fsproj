@@ -52,6 +52,8 @@
     <Compile Include="Test.fs" />
     <Compile Include="MessageArchivingStoreTest.fs" />
     <Compile Include="TestMemoryMessageStore.fs" />
+    <Compile Include="PreferenceStoreTests.fs" />
+    <Compile Include="TestMemoryPreferenceStore.fs" />
     <None Include="App.config" />
     <None Include="paket.references" />
   </ItemGroup>
