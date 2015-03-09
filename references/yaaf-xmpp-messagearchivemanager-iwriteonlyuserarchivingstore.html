@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Namespaces - Yaaf.MessageArchiveManager</title>
+    <title>IWriteOnlyUserArchivingStore - Yaaf.MessageArchiveManager</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Matthias Dittrich">
@@ -36,96 +36,41 @@
         <div class="span9" id="main">
           
 
-<h1>Yaaf.MessageArchiveManager</h1>
 
-<h2><a name="Overview" class="anchor" href="#Overview">Overview</a></h2>
-    <a href="#Yaaf.Xmpp.MessageArchiveManager">Yaaf.Xmpp.MessageArchiveManager</a><br />
 
-    <h2><a href="#Overview"><img src="https://matthid.github.io/Yaaf.MessageArchiveManager/content/img/back_to_top.png" alt="Back to top" /></a> <a name="Yaaf.Xmpp.MessageArchiveManager" class="anchor" href="#Yaaf.Xmpp.MessageArchiveManager">Yaaf.Xmpp.MessageArchiveManager Namespace</a></h2>
-    <div>
-        <table class="table table-bordered type-list">
+<h1>IWriteOnlyUserArchivingStore </h1>
+<div class="xmldoc">
+    Defined in Yaaf.MessageArchiveManager.dll.
+</div>
+<div class="xmldoc">
+</div>
+  <h3>Instance members</h3>
+  <table class="table table-bordered member-list">
     <thead>
-      <tr><td>Type</td><td>Description</td></tr>
+      <tr><td>Instance member</td><td>Description</td></tr>
     </thead>
     <tbody>
-        <tr>
-          <td class="type-name">
-            <a href="yaaf-xmpp-messagearchivemanager-combiningmessagearchivingstore.html">CombiningMessageArchivingStore</a>
-          </td>
-          <td class="xmldoc"></td>
-        </tr>
-        <tr>
-          <td class="type-name">
-            <a href="yaaf-xmpp-messagearchivemanager-iextendeduserarchivingstore.html">IExtendedUserArchivingStore</a>
-          </td>
-          <td class="xmldoc">
- Interface to manage your Chat-Archive.
- This interface should allow anybody to implement http://xmpp.org/extensions/xep-0136.html or http://xmpp.org/extensions/xep-0313.html on top
- It is also possible to use another server with http://xmpp.org/extensions/xep-0136.html as backend!
- But also multiple frontends are possible (Webserver for example).
-</br></td>
-        </tr>
-        <tr>
-          <td class="type-name">
-            <a href="yaaf-xmpp-messagearchivemanager-iwriteonlymessagearchivingstore.html">IWriteOnlyMessageArchivingStore</a>
-          </td>
-          <td class="xmldoc"></td>
-        </tr>
-        <tr>
-          <td class="type-name">
-            <a href="yaaf-xmpp-messagearchivemanager-iwriteonlyuserarchivingstore.html">IWriteOnlyUserArchivingStore</a>
-          </td>
-          <td class="xmldoc"></td>
-        </tr>
-        <tr>
-          <td class="type-name">
-            <a href="yaaf-xmpp-messagearchivemanager-jabberid.html">JabberId</a>
-          </td>
-          <td class="xmldoc"></td>
-        </tr>
-        <tr>
-          <td class="type-name">
-            <a href="yaaf-xmpp-messagearchivemanager-messagecollection.html">MessageCollection</a>
-          </td>
-          <td class="xmldoc"></td>
-        </tr>
-        <tr>
-          <td class="type-name">
-            <a href="yaaf-xmpp-messagearchivemanager-messagecollectionheader.html">MessageCollectionHeader</a>
-          </td>
-          <td class="xmldoc"></td>
-        </tr>
-        <tr>
-          <td class="type-name">
-            <a href="yaaf-xmpp-messagearchivemanager-query.html">Query</a>
-          </td>
-          <td class="xmldoc">
- Simple Query syntax for messages within the Archive
-</br></td>
-        </tr>
-    </tbody>
-  </table>
-  <table class="table table-bordered module-list">
-    <thead>
-      <tr><td>Module</td><td>Description</td></tr>
-    </thead>
-    <tbody>
-        <tr>
-          <td class="module-name">
-            <a href="yaaf-xmpp-messagearchivemanager-archivingstore.html">ArchivingStore</a>
-          </td>
-          <td class="xmldoc"></td>
-        </tr>
-        <tr>
-          <td class="module-name">
-            <a href="yaaf-xmpp-messagearchivemanager-assemblyinfo.html">AssemblyInfo</a>
-          </td>
-          <td class="xmldoc"></td>
-        </tr>
-    </tbody>
-  </table>
+      <tr>
+        <td class="member-name">
 
-    </div>
+          <code onmouseout="hideTip(event, '8', 8)" onmouseover="showTip(event, '8', 8)">
+            StoreCollection(arg1)
+          </code>
+          <div class="tip" id="8">
+            <strong>Signature:</strong> ChatCollection -&gt; Task<br />
+              <strong>Modifiers:</strong> abstract<br />
+                      </div>
+        </td>
+        <td class="xmldoc">
+            <a href="https://github.com/matthid//blob/master/src/source/Yaaf.MessageArchiveManager/ArchiveManager.fs#L30-30" class="github-link">
+              <img src="../content/img/github.png" class="normal" />
+              <img src="../content/img/github-blue.png" class="hover" />
+            </a>
+          
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
         </div>
         <div class="span3">
