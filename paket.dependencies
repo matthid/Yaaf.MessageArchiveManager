@@ -8,10 +8,9 @@ nuget FSharp.Formatting == 2.6.3
 
 // Project
 nuget FSharp.Core
+nuget Yaaf.FSharp.Helper
 nuget Yaaf.Xmpp.MessageArchiving
 nuget Yaaf.Xmpp.Runtime
-
-nuget MailSystem.NET
 
 // Test
 // Until Visual Studio test runner supports later versions.

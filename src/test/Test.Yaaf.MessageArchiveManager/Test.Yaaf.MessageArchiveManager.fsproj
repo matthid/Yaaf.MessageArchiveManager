@@ -50,6 +50,10 @@
     </Compile>
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="Test.fs" />
+    <Compile Include="MessageArchivingStoreTest.fs" />
+    <Compile Include="TestMemoryMessageStore.fs" />
+    <Compile Include="PreferenceStoreTests.fs" />
+    <Compile Include="TestMemoryPreferenceStore.fs" />
     <None Include="App.config" />
     <None Include="paket.references" />
   </ItemGroup>
@@ -199,58 +203,6 @@
       </ItemGroup>
     </When>
   </Choose>
-  <ItemGroup>
-    <Reference Include="ActiveUp.Net.Common">
-      <HintPath>..\..\..\packages\MailSystem.NET\lib\ActiveUp.Net.Common.dll</HintPath>
-      <Private>True</Private>
-      <Paket>True</Paket>
-    </Reference>
-    <Reference Include="ActiveUp.Net.Dns">
-      <HintPath>..\..\..\packages\MailSystem.NET\lib\ActiveUp.Net.Dns.dll</HintPath>
-      <Private>True</Private>
-      <Paket>True</Paket>
-    </Reference>
-    <Reference Include="ActiveUp.Net.Groupware">
-      <HintPath>..\..\..\packages\MailSystem.NET\lib\ActiveUp.Net.Groupware.dll</HintPath>
-      <Private>True</Private>
-      <Paket>True</Paket>
-    </Reference>
-    <Reference Include="ActiveUp.Net.Imap4">
-      <HintPath>..\..\..\packages\MailSystem.NET\lib\ActiveUp.Net.Imap4.dll</HintPath>
-      <Private>True</Private>
-      <Paket>True</Paket>
-    </Reference>
-    <Reference Include="ActiveUp.Net.Mail">
-      <HintPath>..\..\..\packages\MailSystem.NET\lib\ActiveUp.Net.Mail.dll</HintPath>
-      <Private>True</Private>
-      <Paket>True</Paket>
-    </Reference>
-    <Reference Include="ActiveUp.Net.Nntp">
-      <HintPath>..\..\..\packages\MailSystem.NET\lib\ActiveUp.Net.Nntp.dll</HintPath>
-      <Private>True</Private>
-      <Paket>True</Paket>
-    </Reference>
-    <Reference Include="ActiveUp.Net.OpenPGP">
-      <HintPath>..\..\..\packages\MailSystem.NET\lib\ActiveUp.Net.OpenPGP.dll</HintPath>
-      <Private>True</Private>
-      <Paket>True</Paket>
-    </Reference>
-    <Reference Include="ActiveUp.Net.Pop3">
-      <HintPath>..\..\..\packages\MailSystem.NET\lib\ActiveUp.Net.Pop3.dll</HintPath>
-      <Private>True</Private>
-      <Paket>True</Paket>
-    </Reference>
-    <Reference Include="ActiveUp.Net.Smtp">
-      <HintPath>..\..\..\packages\MailSystem.NET\lib\ActiveUp.Net.Smtp.dll</HintPath>
-      <Private>True</Private>
-      <Paket>True</Paket>
-    </Reference>
-    <Reference Include="ActiveUp.Net.WhoIs">
-      <HintPath>..\..\..\packages\MailSystem.NET\lib\ActiveUp.Net.WhoIs.dll</HintPath>
-      <Private>True</Private>
-      <Paket>True</Paket>
-    </Reference>
-  </ItemGroup>
   <ItemGroup>
     <Reference Include="nunit.framework">
       <HintPath>..\..\..\packages\NUnit\lib\nunit.framework.dll</HintPath>
